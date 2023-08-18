@@ -3,17 +3,14 @@ import { GoogleAuthProvider, getAuth, signInWithPopup, signOut } from "firebase/
 
 let provider = new GoogleAuthProvider();
 
-export const loginWithGoogle = () => {
+ export const loginWithGoogle = () => {
   signInWithPopup(auth, provider);
 };
 
-export const logout = async () => {
+export const logout = () => {
     // 1. Sign out on the native layer
     // 1. Sign out on the web layer
-    await signOut(auth);
+      signOut(auth);
+      
   };
 
-export default {
-  loginWithGoogle,
-  logout,
-};
