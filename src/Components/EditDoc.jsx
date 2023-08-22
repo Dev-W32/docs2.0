@@ -49,7 +49,6 @@ const EditDoc = ({ id }) => {
         }
       }, []);
     
-      console.log(isSaving);
 
       const [isbackClicked, setIsbackClicked] = useState(false);
       

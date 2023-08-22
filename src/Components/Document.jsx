@@ -8,7 +8,6 @@ function Document({userPhotoURL}) {
   const [id,setId] = useState('');
 
   const openDoc= (id)=>{
-      console.log(id);
       setIsEdit(!isEdit);
       setId(id);
   }
