@@ -6,7 +6,7 @@ import { Button } from "antd";
 import Topbar from "../Components/Topbar";
 import Document from "../Components/Document";
 import { func } from "prop-types";
-import { loginWithGoogle } from "../API/Auth";
+import { loginWithGoogle } from "../Api/Auth";
 import ButtonComponent from "../Components/Button";
 
 

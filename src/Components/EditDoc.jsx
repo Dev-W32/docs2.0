@@ -67,14 +67,16 @@ const EditDoc = ({ id }) => {
 
         <div className='edit-container flex flex-col items-center justify-center' >
              <div className=''>
-                <BiArrowBack onClick={handleBackClick}   size={30} className="mt-8 left-8 absolute cursor-pointer " />
+              
+               <BiArrowBack onClick={handleBackClick}   size={30} className="mt-4 left-20 top-28 absolute cursor-pointer " />
                 <Input 
                 value={title}
                 onChange={(event) => setTitle(event?.target.value)}
                 placeholder="Enter the Title"
-                className='title-input text-black left-20 top-28 mt-1 absolute bg-transparent border-none p-2 outline-none' type="text"  />
+                className='title-input text-3xl text-black left-28 w-80 top-28 mt-1 ml-20 absolute bg-transparent border-none p-2 outline-none' type="text"  />
                 
-                <div className=' quill-container w-11/12  mt-24  '>
+             
+                <div className=' quill-container ml-7  mt-24  '>
                 <QuillToolbar />
                 <ReactQuill
                     className='ql-container ql-snow'
