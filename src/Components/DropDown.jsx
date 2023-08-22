@@ -1,7 +1,7 @@
 import React from 'react';
 import { DownOutlined, SmileOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
-import { logout } from '../API/Auth';
+import { logout } from '../Api/Auth';
 const items = [
     {
         key:'0',

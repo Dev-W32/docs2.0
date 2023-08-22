@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "antd";
-import { loginWithGoogle } from "../API/Auth";
+import { loginWithGoogle } from "../Api/Auth";
 
 const handleLogin = () => {
   loginWithGoogle();
