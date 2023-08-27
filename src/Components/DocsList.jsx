@@ -15,6 +15,8 @@ export default function DocsList({ openDoc }) {
   ]);
   const getDocs = async () => {
     await getDocuments(setDocs);
+    docs.sort((doc)=>{
+    })
   };
   useEffect(() => {
     getDocs();
